@@ -1,35 +1,108 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>My Website</title>
-    <link rel="Stylesheet" type="text/css" href="style.css" >
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-<header>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
 
-<div class= "tabs">
-<ul>
-<li class="selected"><a href="C:\Users\USER\Desktop\project p1.htm">HOME</a></li>
-<li><a href="C:\Users\USER\Desktop\home.html">MENU</a></li>
-<li><a href="C:\Users\USER\Desktop\profile.html">AWARDS</a></li>
-<li><a href="C:\Users\USER\Desktop\blogs.html">OUR SPECIALS</a></li>
-<li><a href="C:\Users\USER\Desktop\friends.html">ABOUT</a></li>
-<li><a href="C:\Users\USER\Desktop\resume.html">CALL US</a></li>
-</ul>
-</div>
-<div class="Title">
-<h1>MINNEAPOLIS</h1>
-<div class="button">
-<a href="like.html" class="opt">LIKE   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAAB1CAMAAAC4VLkpAAAAilBMVEX39/cChP4Agv/+/Pj//vj7+vgahvbN2+7r7/QAe/xLku/09fFLkPCzyPEAf/5onu0MffSbuu23zvEAd/pblvEAefMUgfMAgvi+0exon+i5y+mLse1dme6rxOnc5O7n7PV0pOV2pOsziPAyieskgOiBq+xJkukviOWbu+d9p+OIr+WlwPBYl+fW4vKEOU6pAAADZ0lEQVRoge2bb3PiIBDGA4Qaao7o0ST+j9W2V3v6/b/e6aTtaELiIix0bnxetJ2pL37z7C4LC0bRXXf9b+IsPorzkAjRbJ4tFtPlKg6HkaRSUkqlKLMBCwVRlZTUovlHKIqqJN8S60AU1YicUTyHoagKck4xjkNAJA/0nGI0CFEjDQj6GCIgyeYCgshJCCu2lxB0GyIr0kuIUq0CWPHYgJAhlqwGBCHbAE48NSFU5Z2CL5oQYuY9HjxrQsj5D4Cgz/7D0YZY+GbQQTx5h2iumEc9+Q4Hr/Img3+IeC6DQ/BV0WLwDhFP20b4huCTUVmGhohf2j74LlH2LjQQMvO5bOvK8+TEziuELiuPXfTdIwSb6ILhuZUPt1oGojwejHVrZQ2RDLsVx8xhAfOVNitPGmmUf/4uFsvKnVFxa4PbKUrp2d+ymCeOzGAzfVZCJLautsKaxgUWfRm6QGCvHVkJk5O9MD90ZiVMeeLAiD04KzusWFpbwSZ5u4EbiYLmSpxp9JXTLLU04tjuAfXBl2ONPkdBbGmZEUeIFGBEnEoqT1NSeSb1q/aQWzPANj7a9VDUEOzDqjxriCkgJ/ogklH7X6ZSkHbfA8EHypqBbgDR6Ie4vWt8SU0gFYoKQcUHaMKHGo5yDZsyokJshrBOjpsTbxGIAjkxNyAKZAj6B+IEw4UgEnJHhOwEKfPD9YBgQxC5u16myMv2UamlE04gHq7vMvEhAC0MHwJwV4aemGL8AyAKwCUVNoSCTHOQIQRorIW9qQGdvzAhcuhDiw4Ibg9RPg6gL1/wnKAv4DlNrDttugkHXYAhEHNCQMcCeoi/TiAooIGiQ5ASsKHphFCOGphYOtjy20Lksx8AAWle2BD0zao63EDk0AdIiOuEBF8MoUFQsQfPtbEgqAKcN1AhSppnB4NJLo4Ta3AXryEwuujI8O0qCoQ0vKvE2U8UZhcMHRCW2ztl9k4SxwnwdgYAceuyXcJmqLgQxPCBIk44QBPtaxC/7ZyQgJM4OkRuZkQXhFWJmq5VGE7IzPTxbh/E4SYnxN74aroPYqVO7wB6RUj9ke8PEnXDy92+Ej3kD1AVRf0jfV3dcCPcAxFFibGim56P9ITDn+4Qd4g2hLys/NPl/deFvTeIXdbUdLr3/dWNWKeQX3q7665A+gc3dUkp0nbJKQAAAABJRU5ErkJggg=="style="width:20px;height:20px;" ></a>
-<a href="learn more.html" class="opt">LEARN MORE</a>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>David Chu's China Bistro</h1></a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span>Kosher Certified</span>
+            </p>
+          </div>
 
-</div>
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="#" onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a><div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
 
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+    <span class="glyphicon glyphicon-earphone"></span>
+    410-602-5008
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
 
-</header>
+  <div id="main-content" class="container"></div>
 
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          7105 Reisterstown Road<br>
+          Baltimore, MD 21215
+          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+          <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright David Chu's China Bistro 2020</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
 </body>
-
-
 </html>
